@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,39 +8,38 @@
 </head>
 <body>
 
-<header>
+<div class="container">
     <h1>🤖 Srihari Robotics</h1>
-</header>
 
-<section id="home">
-    <h2>Hi, I'm Sri Hari Hara Sudhan</h2>
+    <p>Welcome to my robotics website.</p>
 
-    <p>I am studying Grade 7 at Little Star International School (CBSE).</p>
-
-    <p>I made more projects like using Arduino and ESP32.</p>
-
-    <p>My dream is to become a Robotics Engineer and build amazing robots.</p>
-
-    <button onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">
-        My Projects
-    </button>
-</section>
-
-<section id="projects">
     <h2>🚀 My Projects</h2>
 
-    <h3>🤖 SHADOW_X_ROVER</h3>
-    <p>ESP32 WiFi Robot with advanced features.</p>
+    <div class="project">
+        <h3>Shadow_X_Rover</h3>
+        <p>ESP32 Wi-Fi controlled mecanum robot with radar.</p>
+    </div>
 
-    <h3>🚗 Mecanum Robot</h3>
-    <p>Arduino based Bluetooth controlled robot.</p>
+    <div class="project">
+        <h3>Fire Fighting Robot</h3>
+        <p>ESP32 robot with flame detection and Telegram alerts.</p>
+    </div>
 
-    <h3>🔥 Fire Alert Robot</h3>
-    <p>ESP32 robot with Telegram alert system.</p>
+    <div class="project">
+        <h3>Warrior_Z_Robo</h3>
+        <p>Future walking robot project.</p>
+    </div>
 
-    <h3>📡 Ultrasonic Radar</h3>
-    <p>Servo based radar using ultrasonic sensor.</p>
-</section>
+    <button onclick="showMessage()">Click Me</button>
+
+    <hr>
+
+    <h2>📞 Contact Me</h2>
+
+    <p><strong>Email:</strong> s04693400@gmail.com</p>
+    <p><strong>Phone:</strong> 8056055032</p>
+
+</div>
 
 <script src="script.js"></script>
 
