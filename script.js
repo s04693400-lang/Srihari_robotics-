@@ -1,5 +1,3 @@
-// ===== Srihari Robotics Portfolio =====
-
 // Smooth scrolling for navigation links
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function(e) {
