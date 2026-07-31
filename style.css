@@ -1,1 +1,170 @@
+/* ===== Srihari Robotics Portfolio ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#0d1117;
+    color:white;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(90deg,#00c6ff,#0072ff);
+    padding:40px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* Navigation */
+
+nav{
+    background:#161b22;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:#00e5ff;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:white;
+}
+
+/* Sections */
+
+section{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+    padding:25px;
+    background:#161b22;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,229,255,.2);
+}
+
+section h2{
+    color:#00e5ff;
+    margin-bottom:15px;
+}
+
+section p{
+    margin-bottom:10px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin:8px 0;
+}
+
+/* Project Cards */
+
+.project,
+.card{
+    background:#21262d;
+    border-radius:12px;
+    padding:20px;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+.project:hover,
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 20px cyan;
+}
+
+/* Gallery */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+/* Quote */
+
+blockquote{
+    margin-top:15px;
+    padding:15px;
+    border-left:5px solid cyan;
+    background:#1b2330;
+    font-style:italic;
+}
+
+/* Contact */
+
+#contact p{
+    margin:10px 0;
+}
+
+/* Buttons */
+
+button{
+    background:#00c6ff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0072ff;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#161b22;
+    margin-top:30px;
+    color:#bbb;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:28px;
+}
+
+nav a{
+    display:block;
+    margin:10px;
+}
+
+section{
+    width:95%;
+}
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+}
