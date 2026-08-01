@@ -100,30 +100,10 @@
 
         <div class="card">
             <h3>🦾 Future Robot</h3>
-            <p>Photo Coming Soon...</p>
+    <img scr="toll gate system." alt="toll gate system." width="100%">
         </div>
     </div>
     </section>
-
-    <section id="stats">
-    <h2>🌟 Community</h2>
-
-    <div class="card">
-        <h3>👀 Visitors</h3>
-        <h1 id="visitorCount">0</h1>
-
-        <h3>⭐ Rating</h3>
-        <div id="rating">
-            <button onclick="rate(1)">⭐</button>
-            <button onclick="rate(2)">⭐</button>
-            <button onclick="rate(3)">⭐</button>
-            <button onclick="rate(4)">⭐</button>
-            <button onclick="rate(5)">⭐</button>
-        </div>
-
-        <p>Average Rating: <span id="averageRating">0.0</span>/5</p>
-    </div>
-</section>
 
 <section id="contact">
     <h2>📞 Contact</h2>
@@ -135,28 +115,8 @@
     <blockquote>
         "Every great robot starts with one idea." 🤖✨
     </blockquote>
-    
 
-        <script type="module">
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
-import { getDatabase } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
+</section>
 
-const firebaseConfig = {
-  apiKey: "AIzaSyC_HQG9CMxP8zPgxRnSA60yy3b-415Uh2c",
-  authDomain: "srihari-robotics.firebaseapp.com",
-  databaseURL: "https://srihari-robotics-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "srihari-robotics",
-  storageBucket: "srihari-robotics.firebasestorage.app",
-  messagingSenderId: "965264198987",
-  appId: "1:965264198987:web:6c4dd92539cfabaab6ecce"
-};
-
-const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
-
-window.firebaseDB = db;
-        </script>
-
-     <script src="script.js"></script>
 </body>
 </html>
