@@ -1,4 +1,4 @@
-// Welcome message
+   // Welcome message
 window.onload = function () {
     alert("🤖 Welcome to Srihari Robotics! 🚀");
 };
